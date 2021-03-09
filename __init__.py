@@ -6,7 +6,7 @@ import logging
 from aiokafka import AIOKafkaConsumer
 import voluptuous as vol
 
-from config.custom_components.custom_event_handler import CustomEventEnum
+from ..ha-custom-events import CustomEventEnum
 from homeassistant.const import (
     CONF_IP_ADDRESS,
     CONF_PASSWORD,
